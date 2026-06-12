@@ -43,3 +43,6 @@ void insert(string element) {
         parent->rightchild = newNode;
     }
 }
+void search(string element, Node*& parent, Node*& currentNode) {
+    currentNode = root;
+    parent = nullptr;
