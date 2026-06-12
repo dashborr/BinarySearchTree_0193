@@ -94,3 +94,5 @@ void postorder(Node* ptr){
     }
 }
 };
+
+int main()
