@@ -29,3 +29,17 @@ void insert(string element) {
     Node* parent = nullptr;
     Node* currentNode = nullptr;
     search(element, parent, currentNode);
+
+    if (parent == nullptr){
+        root == newNode;
+        return;
+    }
+    if (element < parent->info)
+    {
+        parent->leftchild = newNode;
+    } 
+    else
+    {
+        parent->rightchild = newNode;
+    }
+}
