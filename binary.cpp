@@ -57,3 +57,5 @@ void search(string element, Node*& parent, Node*& currentNode) {
         }
     }
 }
+
+void inorder(Node* ptr)
