@@ -82,4 +82,15 @@ void preorder(Node* ptr){
     }
 }
 
-void postorder(Node* ptr)
+void postorder(Node* ptr){
+    if (ptr != nullptr) {
+        cout << "tree is empty" << endl;
+        return;
+    }
+    if (ptr != nullptr) {
+        postorder(ptr->leftchild);
+        postorder(ptr->rightchild);
+        cout << ptr->info << " ";
+    }
+}
+};
